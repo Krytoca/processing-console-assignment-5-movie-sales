@@ -23,6 +23,8 @@ void setup() {
   
   String sales[] = loadStrings("sales.txt"); //load sales file
   
+  String answers[] = loadStrings("answers.txt"); //load answers file
+  
    //Create if expression for sales greater or less than 400 million
    for (int i = 0; i < 5; i++){
      println(titles[i]);
@@ -31,8 +33,11 @@ void setup() {
      } else {
        println("This movie is not a blockbuster"); 
      }
+     if (answers[i].equals("yes")){
+       println("Great! This movie is playing right now at your local theatre!");
+     }
    }
-    
+   
 }
 
 void draw() {
