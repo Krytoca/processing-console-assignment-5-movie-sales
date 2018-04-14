@@ -30,11 +30,20 @@ void setup() {
      println(titles[i]);
      if (int(sales[i]) > 400000000){ //this expression compares integer to integer
        println("This movie is a blockbuster!");
+       println(); //added extra blank lines so it doesnt look so cluttered.
+       println("Would you like to watch?");
+       println();
      } else {
-       println("This movie is not a blockbuster"); 
+       println("This movie is not a blockbuster");
+       println();
+       println("Would you like to watch?");
+       println();
      }
      if (answers[i].equals("yes")){ //compares string to string
        println("Great! This movie is playing right now at your local theatre!");
+       println();
+       println("Would you like popcorn with that?");
+       println();
      } else {
        println("Are you sure? Here is a coupon to help change your mind");
        println("****************************************************");
@@ -44,7 +53,13 @@ void setup() {
        println("*  (Large pop, Mega Popcorn Bucket, small bag of Maltesers)");
        println("*  $35.95 (regular price is $50.00)");
        println("****************************************************");
+       println();
      }
+     if (answers[i].equals("yes")){
+       println("Great! Here are our prices on our amazing combos!");
+     } else {
+       
+     }  
    }
    
 }
