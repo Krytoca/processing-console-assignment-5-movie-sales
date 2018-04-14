@@ -39,6 +39,11 @@ void setup() {
        println("Are you sure? Here is a coupon to help change your mind");
        println("****************************************************");
        println("*  Here is a special offer to encourage you to attend");
+       println("*  Any Non-Blockbuster Movie!");
+       println("*  Mega Combo");
+       println("*  (Large pop, Mega Popcorn Bucket, small bag of Maltesers)");
+       println("*  $35.95 (regular price is $50.00)");
+       println("****************************************************");
      }
    }
    
