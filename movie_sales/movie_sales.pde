@@ -28,13 +28,17 @@ void setup() {
    //Create if expression for sales greater or less than 400 million
    for (int i = 0; i < 5; i++){
      println(titles[i]);
-     if (int(sales[i]) > 400000000){
+     if (int(sales[i]) > 400000000){ //this expression compares integer to integer
        println("This movie is a blockbuster!");
      } else {
        println("This movie is not a blockbuster"); 
      }
-     if (answers[i].equals("yes")){
+     if (answers[i].equals("yes")){ //compares string to string
        println("Great! This movie is playing right now at your local theatre!");
+     } else {
+       println("Are you sure? Here is a coupon to help change your mind");
+       println("****************************************************");
+       println("*  Here is a special offer to encourage you to attend");
      }
    }
    
