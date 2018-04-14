@@ -57,8 +57,18 @@ void setup() {
      }
      if (answers[i].equals("yes")){
        println("Great! Here are our prices on our amazing combos!");
+       println();
      } else {
-       
+       println("No popcorn? How about a deal for a hotdog combo then?");
+       println();
+       println("****************************************************");
+       println("*  Here is a special offer to encourage you to attend");
+       println("*  Any Non-Blockbuster Movie!");
+       println("*  Mega Dog Combo");
+       println("*  (Large pop, Mega Hotdog, small bag of Smarties)");
+       println("*  $30.95 (regular price is $40.00)");
+       println("****************************************************");
+       println();
      }  
    }
    
